@@ -29,15 +29,14 @@ Used for income classification into three categories:
 The SVM model aims to classify individuals based on their socioeconomic indicators.
 
 ## ⚙️ Features
-
-- `GDP_per_capita`
-- `education_primary_completion_rate`
-- `employment_status`
-- `region_code`
-- `household_size`
-- `gender`
-- `age_group`
-
+- Isced11
+- Sex
+- Age
+- Country
+- Year
+- Income
+- Gdp_Capita
+  
 ## 🧪 Objectives
 
 - Understand and visualize economic disparities within Germany.
@@ -52,27 +51,12 @@ The SVM model aims to classify individuals based on their socioeconomic indicato
 - Matplotlib, Seaborn
 - Jupyter Notebooks
 
-## 📁 Structure
-
-```
-├── data/
-│   ├── eurostat_income.csv
-│   ├── worldbank_gdp_edu.csv
-│   └── merged_dataset.csv
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_linear_regression.ipynb
-│   └── 03_svm_income_classification.ipynb
-├── models/
-│   ├── linear_regression_model.pkl
-│   └── svm_model.pkl
-└── README.md
-```
 
 ## 📈 Results Summary
 
 - **Linear Regression** showed a moderate positive correlation between GDP per capita and income.
-- **SVM Classification** achieved an accuracy of ~XX% (replace with actual result) in identifying income tiers.
+- **SVM Classification** achieved an accuracy of 90% in identifying income tiers.
+- **Random Forest** achieved an accuracy of 90% in identifying income tiers. 
 
 ## 🗺️ Scope & Future Work
 
