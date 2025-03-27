@@ -1,6 +1,6 @@
-# 🇩🇪 Germany Wealth & Income Machine Learning Study
+# 🇩🇪 Germany Education & Income Machine Learning Study
 
-This project explores wealth and income distribution in Germany using machine learning models — Linear Regression and Support Vector Machines (SVM). The primary objective is to understand the relationship between income, education, and GDP per capita and classify income levels into three categories.
+This project explores education and income distribution in Germany using machine learning models — Linear Regression, Random Forests, Support Vector Machines (SVM). The primary objective is to understand the relationship between income, education, and GDP per capita and classify income levels into three categories.
 
 ## 📊 Data Sources
 
@@ -20,7 +20,13 @@ Used to predict income levels based on:
 - Education level
 - Regional demographics
 
-### 2. Support Vector Machine (SVM)
+### 2. Random Forest
+Used for income classification into three categories:
+- **Low Income**
+- **Middle Income**
+- **High Income**
+
+### 3. Support Vector Machine (SVM)
 Used for income classification into three categories:
 - **Low Income**
 - **Middle Income**
